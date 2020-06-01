@@ -1,0 +1,58 @@
+{
+  "[scala]": {},
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "\"jetbrains mono\", \"input mono narrow\", \"furacode nerd font\", Menlo, Monaco, 'Courier New', monospace",
+  "workbench.statusBar.feedback.visible": false,
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.glyphMargin": false,
+  "editor.tabCompletion": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.fontAliasing": "auto",
+  "breadcrumbs.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "terminal.integrated.cursorStyle": "line",
+  "telemetry.enableTelemetry": false,
+  "git.autofetch": true,
+  "gitlens.advanced.telemetry.enabled": false,
+  "gitlens.blame.ignoreWhitespace": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.fontFamily": " \"furacode nerd font\"",
+  "git.confirmSync": false,
+  "editor.hover.delay": 150,
+  "yaml.schemas": {
+    "file:///Users/benplommer/.vscode/extensions/atlassian.atlascode-1.4.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+
+  "gitlens.views.compare.files.layout": "list",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.bloop": true,
+    "**/.history": true,
+    "**/.metals": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "window.zoomLevel": 0,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+  "dotty.trace.machineId": "ebc65d94-18b5-4e70-a573-d92d07956e11",
+  "jsonnet.libPaths": [
+    "/Users/benplommer/Code/grafonnet-lib"
+  ],
+  "window.openFoldersInNewWindow": "on",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true
+}
