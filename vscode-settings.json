@@ -45,7 +45,7 @@
   // },
   "window.zoomLevel": 0,
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+  "workbench.colorTheme": "Better Solarized Dark",
   "dotty.trace.machineId": "ebc65d94-18b5-4e70-a573-d92d07956e11",
   "jsonnet.libPaths": [
     "/Users/benplommer/Code/grafonnet-lib"
