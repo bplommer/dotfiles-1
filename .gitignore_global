@@ -1,0 +1,10 @@
+*~
+.DS_Store
+.idea
+ensime.sbt
+.ensime
+.ensime_cache
+.metals/
+.bloop/
+.history/
+.vscode/
