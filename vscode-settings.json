@@ -8,9 +8,7 @@
   "editor.glyphMargin": false,
   "editor.tabCompletion": "on",
   "editor.cursorBlinking": "solid",
-  "editor.formatOnSave": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "workbench.fontAliasing": "auto",
   "breadcrumbs.enabled": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -22,30 +20,36 @@
   "gitlens.blame.ignoreWhitespace": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.integrated.fontFamily": " \"furacode nerd font\"",
+  "terminal.integrated.fontFamily": " \"jetbrainsmono nerd font\"",
   "git.confirmSync": false,
   "editor.hover.delay": 150,
   "yaml.schemas": {
     "file:///Users/benplommer/.vscode/extensions/atlassian.atlascode-1.4.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-
   "gitlens.views.compare.files.layout": "list",
   "diffEditor.ignoreTrimWhitespace": false,
   "files.exclude": {
     "**/.bloop": true,
+    "**/.classpath": true,
+    "**/.factorypath": true,
     "**/.history": true,
     "**/.metals": true,
-    "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
-    "**/.factorypath": true
+    "**/target": true
+  },
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/target": true,
+    "**/.ammonite": true
   },
   // "[typescript]": {
   //   "editor.defaultFormatter": "esbenp.prettier-vscode"
   // },
   "window.zoomLevel": 0,
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Better Solarized Dark",
+  "workbench.colorTheme": "Better Solarized Light",
   "dotty.trace.machineId": "ebc65d94-18b5-4e70-a573-d92d07956e11",
   "jsonnet.libPaths": [
     "/Users/benplommer/Code/grafonnet-lib"
@@ -54,5 +58,55 @@
   "editor.tabSize": 2,
   "explorer.confirmDelete": false,
   "go.formatTool": "goimports",
-  "go.useLanguageServer": true
+  "go.useLanguageServer": true,
+  "java.semanticHighlighting.enabled": true,
+  "java.requirements.JDK11Warning": false,
+  "terminal.integrated.fontSize": 14,
+  "projectManager.git.baseFolders": [
+    "/Users/benplom"
+  ],
+  "tabnine.experimentalAutoImports": true,
+  "editor.dragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "search.exclude": {
+    "**/target": true,
+    "**/.bloop": true,
+    "**/.metals/**": true,
+    ".metals": true,
+    ".metals/*": true,
+    ".git/**": true,
+    "**/metals.log": true
+  },
+  "[markdown]": {
+    "editor.fontLigatures": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "[mermaid]": {
+    "editor.fontLigatures": false
+  },
+  "metals.superMethodLensesEnabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "gitlens.blame.format": "${message|50?} ${date|14-}",
+  "gitlens.currentLine.format": "${author, }${date}${' via 'pullRequest}${ • message|50?}",
+  "gitlens.hovers.detailsMarkdownFormat": "${avatar} &nbsp;__${author}__, ${date}${' via 'pullRequest} &nbsp; _(${date})_ ${message}${commands}",
+  "gitlens.statusBar.format": "${author}, ${date}${' via 'pullRequest}",
+  "gitlens.views.formats.commits.description": "${author, }${date}",
+  "gitlens.views.formats.stashes.description": "${date}",
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultDateSource": "committed",
+  "gitlens.defaultDateFormat": "D MMM YYYY HH:mm",
+  "gitlens.defaultDateShortFormat": null,
+  "gitlens.changes.locations": [
+    "gutter",
+    "overview"
+  ],
+  "gitlens.changes.toggleMode": "window",
+  "gitlens.views.repositories.enabled": true,
+  "[nix]": {
+    "editor.defaultFormatter": "jnoortheen.nix-ide"
+  }
 }

@@ -8,3 +8,4 @@ ensime.sbt
 .bloop/
 .history/
 .vscode/
+metals.sbt

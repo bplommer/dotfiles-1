@@ -53,10 +53,10 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fasd common-aliases dirhistory encode64 sudo web-search)
+plugins=(direnv git git-auto-fetch fasd common-aliases dirhistory encode64 sudo web-search aws terraform)
 
 if [[ $(uname) == Darwin ]]; then
-    plugins+=(osx brew)
+    plugins+=(osx brew iterm2)
 fi
 
 syn_hl_plugin_location=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -97,3 +97,10 @@ plugins+=zsh-syntax-highlighting   # has to be in last position
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$PATH:/Users/benplom/Library/Application Support/Coursier/bin"
+export LESSOPEN="| /usr/local/bin/highlight %s --out-format xterm256 --force"
+if [ -e /Users/benplom/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/benplom/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
